@@ -1,6 +1,6 @@
 import re
 
-x = re.findall('mul\\(\\d*,\\d*\\)|do\\(\\)|don\'t\\(\\)', open('input.txt', 'r').read())
+x = re.findall('mul\\(\\d+,\\d+\\)|do\\(\\)|don\'t\\(\\)', open('input.txt', 'r').read())
 res = 0
 on = True
 for i in x:
